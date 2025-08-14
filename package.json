@@ -1,0 +1,27 @@
+{
+  "name": "0g-galileo-explorer",
+  "version": "1.0.0",
+  "description": "Comprehensive blockchain explorer for 0G Network",
+  "scripts": {
+    "install:all": "npm run install:frontend && npm run install:api1 && npm run install:api2 && npm run install:api3",
+    "install:frontend": "cd frontend && npm install",
+    "install:api1": "cd backend/api-validator && npm install",
+    "install:api2": "cd backend/api-blockchain && npm install",
+    "install:api3": "cd backend/api-uptime && npm install",
+    "start:all": "concurrently \"npm run start:api1\" \"npm run start:api2\" \"npm run start:api3\" \"npm run start:frontend\"",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:api1": "cd backend/api-validator && node server.js",
+    "start:api2": "cd backend/api-blockchain && node server.js",
+    "start:api3": "cd backend/api-uptime && node server.js",
+    "build": "cd frontend && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coinsspor/0g-galileo-explorer.git"
+  },
+  "author": "CoinsSport Team",
+  "license": "MIT"
+}
