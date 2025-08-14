@@ -17,7 +17,7 @@
 ## 🏆 Wavehack Submission
 
 - **Track**: DevTooling
-- **Team**: CoinsSport Team
+- **Team**: CoinsSpor Team
 - **Waves**: 1-6 (All waves)
 - **Status**: Wave 1-2 Completed ✅ | Wave 3 In Progress 🚧
 
