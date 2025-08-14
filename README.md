@@ -1,7 +1,7 @@
 # 🚀 0G Galileo Explorer
 
 <div align="center">
-  <img src="frontend/public/0glogo.jpg" alt="0G Logo" width="120"/>
+  <img src="frontend/0glogo.jpg" alt="0G Logo" width="120"/>
   
   [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://0ggalileoexplorer.coinsspor.com)
   [![Validators](https://img.shields.io/badge/validators-50%2B-blue)](https://0ggalileoexplorer.coinsspor.com)
