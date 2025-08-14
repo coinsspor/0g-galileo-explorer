@@ -1,5 +1,4 @@
 # 🚀 0G Galileo Explorer
-
 <div align="center">
   <img src="frontend/0glogo.jpg" alt="0G Logo" width="120"/>
   
@@ -9,17 +8,17 @@
   
   **The Most Comprehensive Blockchain Explorer for 0G Network**
   
-  [🌐 Live Demo](https://0ggalileoexplorer.coinsspor.com) | [📚 Documentation](docs/API_DOCUMENTATION.md) | [🗺️ Roadmap](ROADMAP.md)
+  [🌐 Live Demo](https://0ggalileoexplorer.coinsspor.com) | [📹 Demo Video](https://www.youtube.com/watch?v=M1ETQdQEJ1g) | [📚 Documentation](docs/API_DOCUMENTATION.md) | [🗺️ Roadmap](ROADMAP.md)
 </div>
 
 ---
 
 ## 🏆 Wavehack Submission
-
 - **Track**: DevTooling
 - **Team**: CoinsSpor Team
 - **Waves**: 1-6 (All waves)
 - **Status**: Wave 1-2 Completed ✅ | Wave 3 In Progress 🚧
+- **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=M1ETQdQEJ1g)
 
 ## 🌟 Key Features
 
@@ -36,8 +35,12 @@
 - Contract Deployment Helper
 - Advanced Search
 
-## 🚀 Quick Start
+## 🎥 Demo & Resources
+- **📹 Video Demo**: [YouTube - 0G Galileo Explorer Walkthrough](https://www.youtube.com/watch?v=M1ETQdQEJ1g)
+- **🌐 Live Demo**: [0ggalileoexplorer.coinsspor.com](https://0ggalileoexplorer.coinsspor.com)
+- **📖 Full Documentation**: [API Docs](docs/API_DOCUMENTATION.md)
 
+## 🚀 Quick Start
 ```bash
 # Clone repository
 git clone https://github.com/coinsspor/0g-galileo-explorer.git
@@ -57,7 +60,6 @@ npm run start:all
 ```
 
 ## 🏗️ Architecture
-
 ```
 Frontend (React + TypeScript + Vite)
     ↓
@@ -70,7 +72,6 @@ Frontend (React + TypeScript + Vite)
 ```
 
 ## 📊 Performance Metrics
-
 | Metric | Value | Status |
 |--------|-------|--------|
 | Response Time | <100ms | ✅ Excellent |
@@ -80,14 +81,12 @@ Frontend (React + TypeScript + Vite)
 | Daily API Calls | 10,000+ | ✅ Active |
 
 ## 🛠️ Technology Stack
-
 - **Frontend**: React 19, TypeScript, Vite, TailwindCSS, Recharts
 - **Backend**: Node.js, Express, ethers.js
 - **Blockchain**: 0G Network (EVM Compatible)
 - **Deployment**: VPS with Nginx
 
 ## 📈 0G Integration
-
 Using 0G's infrastructure:
 - ✅ **0G Chain**: Full RPC integration for all blockchain data
 - ✅ **Smart Contracts**: Direct interaction with staking contracts
@@ -95,14 +94,13 @@ Using 0G's infrastructure:
 - 🚧 **0G DA**: Coming in Wave 5
 
 ## 🤝 Contributing
-
 We welcome contributions! Please check our [Contributing Guide](docs/CONTRIBUTING.md).
 
 ## 📞 Contact
-
 - **Website**: [https://0ggalileoexplorer.coinsspor.com](https://0ggalileoexplorer.coinsspor.com)
 - **GitHub**: [@coinsspor](https://github.com/coinsspor)
 - **Discord**: [0G Labs](https://discord.gg/0glabs)
+- **Demo Video**: [YouTube](https://www.youtube.com/watch?v=M1ETQdQEJ1g)
 
 ---
 
