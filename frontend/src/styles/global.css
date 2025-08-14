@@ -1,0 +1,20 @@
+/* Yerel Noto Color Emoji fontunu kullan */
+.emoji {
+  font-family: 'Noto Color Emoji', 'Segoe UI Emoji', 'Apple Color Emoji', 'EmojiOne', 'Twemoji Mozilla', sans-serif !important;
+  font-variant-emoji: emoji !important;
+  font-feature-settings: "liga" 1, "calt" 1 !important;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* T�m sayfa i�in fontu zorla */
+body {
+  font-family: 'Noto Color Emoji', 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif;
+}
+
+/* Fallback i�in sistem fontlar� */
+@supports not (font-variation-settings: "opsz") {
+  .emoji {
+    font-family: 'Segoe UI Emoji', 'Apple Color Emoji', sans-serif !important;
+  }
+}
