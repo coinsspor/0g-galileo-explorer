@@ -8,7 +8,7 @@
   
   **The Most Comprehensive Blockchain Explorer for 0G Network**
   
-  [🌐 Live Demo](https://0ggalileoexplorer.coinsspor.com) | [📹 Demo Video](https://www.youtube.com/watch?v=M1ETQdQEJ1g) | [📚 Documentation](docs/API_DOCUMENTATION.md) | [🗺️ Roadmap](ROADMAP.md)
+  [🌐 Live Demo](https://0ggalileoexplorer.coinsspor.com) | [📹 Demo Video](https://www.youtube.com/watch?v=czXhV7afxNs) | [📚 Documentation](docs/API_DOCUMENTATION.md) | [🗺️ Roadmap](ROADMAP.md)
 </div>
 
 ---
@@ -100,7 +100,7 @@ We welcome contributions! Please check our [Contributing Guide](docs/CONTRIBUTIN
 - **Website**: [https://0ggalileoexplorer.coinsspor.com](https://0ggalileoexplorer.coinsspor.com)
 - **GitHub**: [@coinsspor](https://github.com/coinsspor)
 - **Discord**: [0G Labs](https://discord.gg/0glabs)
-- **Demo Video**: [YouTube](https://www.youtube.com/watch?v=M1ETQdQEJ1g)
+- **Demo Video**: [YouTube](https://www.youtube.com/watch?v=czXhV7afxNs)
 
 ---
 
