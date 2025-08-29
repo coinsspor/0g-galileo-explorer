@@ -18,7 +18,7 @@
 - **Team**: CoinsSpor Team
 - **Waves**: 1-6 (All waves)
 - **Status**: Wave 1-2 Completed ✅ | Wave 3 In Progress 🚧
-- **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=M1ETQdQEJ1g)
+- **Demo Video**: [Watch on YouTube](https://www.youtube.com/watch?v=czXhV7afxNs)
 
 ## 🌟 Key Features
 
