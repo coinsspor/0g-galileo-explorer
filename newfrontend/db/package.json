@@ -1,0 +1,15 @@
+{
+  "name": "explorer-backend",
+  "type": "module",
+  "scripts": {
+    "setup": "node --max-old-space-size=2048 setup.js",
+    "start": "node --max-old-space-size=2048 server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.7.1",
+    "better-sqlite3": "^9.0.0",
+    "node-fetch": "^3.3.2"
+  }
+}
