@@ -9,13 +9,19 @@ import { Transactions } from './components/Transactions';
 import { TransactionDetail } from './components/TransactionDetail';
 import { Staking } from './components/Staking';
 import { Governance } from './components/Governance';
+import { RPCMonitoring } from './components/RPCMonitoring';
+import ContractChecker from './components/ContractChecker';
+import { ContractDeployment } from './components/ContractDeployment';
 import { Toaster } from 'sonner';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState('dashboard');
   const [transactionHash, setTransactionHash] = useState<string | null>(null);
+  const [tokenAddress, setTokenAddress] = useState<string | null>(null);
+  const [previousPage, setPreviousPage] = useState(''); // YENİ STATE
 
   const handleTransactionDetail = (hash: string) => {
+    setPreviousPage(currentPage); // Hangi sayfadan geldiğini kaydet
     setTransactionHash(hash);
     setCurrentPage('transactionDetail');
   };
@@ -23,6 +29,21 @@ export default function App() {
   const handleBackToTransactions = () => {
     setCurrentPage('transactions');
     setTransactionHash(null);
+  };
+  
+  const handleBackToContractChecker = () => {
+    setCurrentPage('contract-checker');
+    setTransactionHash(null);
+  };
+
+  const handleTokenDetail = (address: string) => {
+    setTokenAddress(address);
+    setCurrentPage('tokenDetail');
+  };
+
+  const handleBackToContractDeployment = () => {
+    setCurrentPage('contract-deployment');
+    setTokenAddress(null);
   };
 
   const renderPage = () => {
@@ -38,11 +59,29 @@ export default function App() {
       case 'transactions':
         return <Transactions onViewDetails={handleTransactionDetail} />;
       case 'transactionDetail':
-        return <TransactionDetail hash={transactionHash} onBack={handleBackToTransactions} />;
+        return <TransactionDetail 
+          hash={transactionHash} 
+          onBack={() => {
+            // Hangi sayfadan geldiğine göre geri dön
+            if (previousPage === 'contract-checker') {
+              setCurrentPage('contract-checker');
+            } else {
+              setCurrentPage('transactions');
+            }
+            setTransactionHash(null);
+            setPreviousPage(''); // Reset previous page
+          }} 
+        />;
       case 'staking':
         return <Staking />;
       case 'governance':
         return <Governance />;
+      case 'rpc-monitoring':
+        return <RPCMonitoring />;
+      case 'contract-checker':
+        return <ContractChecker onViewDetails={handleTransactionDetail} />;
+      case 'contract-deployment':
+        return <ContractDeployment />;
       default:
         return <Dashboard />;
     }
