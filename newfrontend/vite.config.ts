@@ -31,8 +31,18 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
       },
+      '/api/transactions': {
+        target: 'http://localhost:3003',
+        changeOrigin: true,
+        secure: false,
+      },
       '/api/tokens': {
         target: 'http://localhost:3101',
+        changeOrigin: true,
+        secure: false,
+      },
+      '/api/blocks': {
+        target: 'http://localhost:3005',
         changeOrigin: true,
         secure: false,
       },
@@ -41,6 +51,12 @@ export default defineConfig({
         changeOrigin: true,
         secure: false,
       }
+    },
+  },
+  resolve: {
+    alias: {
+      '@': '/src',
+      '@/components': '/src/components',
     },
   },
 });
